@@ -1,0 +1,90 @@
+.App {
+  display: grid;
+  padding: 20px;
+  width: 560px;
+}
+
+.mine-filed {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: outset;
+}
+
+.mine-filed .mine {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(189, 189, 189);
+  border-style: outset;
+}
+
+.mine-filed .open {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  font-weight: 900;
+  border-style: groove;
+}
+.mine-filed .type1 {
+  color: rgb(24, 20, 255);
+}
+.mine-filed .type2 {
+  color: rgb(0, 160, 21);
+}
+.mine-filed .type3 {
+  color: rgb(192, 0, 0);
+}
+.mine-filed .type4 {
+  color: rgb(87, 0, 95);
+}
+.mine-filed .type5 {
+  color: rgb(135, 0, 168);
+}
+.mine-filed .type6 {
+  color: rgb(255, 0, 255);
+}
+
+.mine-filed img {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(189, 189, 189);
+  border-style: outset;
+}
+
+.score-bar {
+  background-color: rgb(202, 202, 202);
+  width: 560px;
+  height: 30px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  border: 2px solid;
+}
+.score-bar .score {
+  color: #c70000;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.score-bar .reset-game {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.score-bar .time {
+  color: #c70000;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
